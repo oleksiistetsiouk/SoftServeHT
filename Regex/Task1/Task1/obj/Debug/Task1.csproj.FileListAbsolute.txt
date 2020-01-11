@@ -1,0 +1,6 @@
+C:\Documents\GitHub\SoftServeHT\Regex\Task1\Task1\bin\Debug\Task1.exe.config
+C:\Documents\GitHub\SoftServeHT\Regex\Task1\Task1\bin\Debug\Task1.exe
+C:\Documents\GitHub\SoftServeHT\Regex\Task1\Task1\bin\Debug\Task1.pdb
+C:\Documents\GitHub\SoftServeHT\Regex\Task1\Task1\obj\Debug\Task1.csprojAssemblyReference.cache
+C:\Documents\GitHub\SoftServeHT\Regex\Task1\Task1\obj\Debug\Task1.exe
+C:\Documents\GitHub\SoftServeHT\Regex\Task1\Task1\obj\Debug\Task1.pdb
