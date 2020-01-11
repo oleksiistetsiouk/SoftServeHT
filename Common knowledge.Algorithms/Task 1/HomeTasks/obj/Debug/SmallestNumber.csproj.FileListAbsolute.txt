@@ -1,0 +1,6 @@
+C:\Users\Oleksii\Desktop\HomeTasks\HomeTasks\bin\Debug\HomeTasks.exe.config
+C:\Users\Oleksii\Desktop\HomeTasks\HomeTasks\bin\Debug\HomeTasks.exe
+C:\Users\Oleksii\Desktop\HomeTasks\HomeTasks\bin\Debug\HomeTasks.pdb
+C:\Users\Oleksii\Desktop\HomeTasks\HomeTasks\obj\Debug\SmallestNumber.csprojAssemblyReference.cache
+C:\Users\Oleksii\Desktop\HomeTasks\HomeTasks\obj\Debug\HomeTasks.exe
+C:\Users\Oleksii\Desktop\HomeTasks\HomeTasks\obj\Debug\HomeTasks.pdb
