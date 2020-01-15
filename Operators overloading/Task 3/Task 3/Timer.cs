@@ -75,36 +75,28 @@ namespace Task_3
         {
             if (timer1.Minute != timer2.Minute)
                 return timer1.Minute < timer2.Minute;
-            else
-            {
-                if (timer1.Second != timer2.Second)
-                    return timer1.Second < timer2.Second;
-                else
-                {
-                    if (timer1.Millisecond != timer2.Millisecond)
-                        return timer1.Millisecond < timer2.Millisecond;
-                    else
-                        return true;
-                }
-            }
+
+            if (timer1.Second != timer2.Second)
+                return timer1.Second < timer2.Second;
+
+            if (timer1.Millisecond != timer2.Millisecond)
+                return timer1.Millisecond < timer2.Millisecond;
+
+            return true;
         }
 
         public static bool operator >(Timer timer1, Timer timer2)
         {
             if (timer1.Minute != timer2.Minute)
                 return timer1.Minute > timer2.Minute;
-            else
-            {
-                if (timer1.Second != timer2.Second)
-                    return timer1.Second > timer2.Second;
-                else
-                {
-                    if (timer1.Millisecond != timer2.Millisecond)
-                        return timer1.Millisecond > timer2.Millisecond;
-                    else
-                        return true;
-                }
-            }
+
+            if (timer1.Second != timer2.Second)
+                return timer1.Second > timer2.Second;
+
+            if (timer1.Millisecond != timer2.Millisecond)
+                return timer1.Millisecond > timer2.Millisecond;
+
+            return true;
         }
 
         public static bool operator <=(Timer timer1, Timer timer2)
@@ -114,18 +106,14 @@ namespace Task_3
 
             if (timer1.Minute != timer2.Minute)
                 return timer1.Minute < timer2.Minute;
-            else
-            {
-                if (timer1.Second != timer2.Second)
-                    return timer1.Second < timer2.Second;
-                else
-                {
-                    if (timer1.Millisecond != timer2.Millisecond)
-                        return timer1.Millisecond < timer2.Millisecond;
-                    else
-                        return true;
-                }
-            }
+
+            if (timer1.Second != timer2.Second)
+                return timer1.Second < timer2.Second;
+
+            if (timer1.Millisecond != timer2.Millisecond)
+                return timer1.Millisecond < timer2.Millisecond;
+
+            return true;
         }
 
         public static bool operator >=(Timer timer1, Timer timer2)
@@ -135,18 +123,14 @@ namespace Task_3
 
             if (timer1.Minute != timer2.Minute)
                 return timer1.Minute > timer2.Minute;
-            else
-            {
-                if (timer1.Second != timer2.Second)
-                    return timer1.Second > timer2.Second;
-                else
-                {
-                    if (timer1.Millisecond != timer2.Millisecond)
-                        return timer1.Millisecond > timer2.Millisecond;
-                    else
-                        return true;
-                }
-            }
+
+            if (timer1.Second != timer2.Second)
+                return timer1.Second > timer2.Second;
+
+            if (timer1.Millisecond != timer2.Millisecond)
+                return timer1.Millisecond > timer2.Millisecond;
+
+            return true;
         }
 
         public static bool operator ==(Timer timer1, Timer timer2)

@@ -97,36 +97,28 @@ namespace Task_3
         {
             if (clock1.Hour != clock2.Hour)
                 return clock1.Hour < clock2.Hour;
-            else
-            {
-                if (clock1.Minute != clock2.Minute)
-                    return clock1.Minute < clock2.Minute;
-                else
-                {
-                    if (clock1.Second != clock2.Second)
-                        return clock1.Second < clock2.Second;
-                    else
-                        return true;
-                }
-            }
+
+            if (clock1.Minute != clock2.Minute)
+                return clock1.Minute < clock2.Minute;
+
+            if (clock1.Second != clock2.Second)
+                return clock1.Second < clock2.Second;
+
+            return true;
         }
 
         public static bool operator >(Clock clock1, Clock clock2)
         {
             if (clock1.Hour != clock2.Hour)
                 return clock1.Hour > clock2.Hour;
-            else
-            {
-                if (clock1.Minute != clock2.Minute)
-                    return clock1.Minute > clock2.Minute;
-                else
-                {
-                    if (clock1.Second != clock2.Second)
-                        return clock1.Second > clock2.Second;
-                    else
-                        return true;
-                }
-            }
+
+            if (clock1.Minute != clock2.Minute)
+                return clock1.Minute > clock2.Minute;
+
+            if (clock1.Second != clock2.Second)
+                return clock1.Second > clock2.Second;
+
+            return true;
         }
 
         public static bool operator <=(Clock clock1, Clock clock2)
@@ -136,18 +128,14 @@ namespace Task_3
 
             if (clock1.Hour != clock2.Hour)
                 return clock1.Hour < clock2.Hour;
-            else
-            {
-                if (clock1.Minute != clock2.Minute)
-                    return clock1.Minute < clock2.Minute;
-                else
-                {
-                    if (clock1.Second != clock2.Second)
-                        return clock1.Second < clock2.Second;
-                    else
-                        return true;
-                }
-            }
+
+            if (clock1.Minute != clock2.Minute)
+                return clock1.Minute < clock2.Minute;
+
+            if (clock1.Second != clock2.Second)
+                return clock1.Second < clock2.Second;
+
+            return true;
         }
 
         public static bool operator >=(Clock clock1, Clock clock2)
@@ -157,18 +145,14 @@ namespace Task_3
 
             if (clock1.Hour != clock2.Hour)
                 return clock1.Hour > clock2.Hour;
-            else
-            {
-                if (clock1.Minute != clock2.Minute)
-                    return clock1.Minute > clock2.Minute;
-                else
-                {
-                    if (clock1.Second != clock2.Second)
-                        return clock1.Second > clock2.Second;
-                    else
-                        return true;
-                }
-            }
+
+            if (clock1.Minute != clock2.Minute)
+                return clock1.Minute > clock2.Minute;
+
+            if (clock1.Second != clock2.Second)
+                return clock1.Second > clock2.Second;
+
+            return true;
         }
 
         public static bool operator ==(Clock clock1, Clock clock2)
