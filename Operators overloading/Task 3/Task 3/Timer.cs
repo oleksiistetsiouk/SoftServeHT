@@ -8,9 +8,9 @@ namespace Task_3
 {
     class Timer
     {
-        public int minute;
-        public int second;
-        public int millisecond;
+        private int minute;
+        private int second;
+        private int millisecond;
 
         public Timer()
         {
@@ -69,6 +69,94 @@ namespace Task_3
                 else
                     millisecond = value;
             }
+        }
+
+        public static bool operator <(Timer timer1, Timer timer2)
+        {
+            if (timer1.Minute != timer2.Minute)
+                return timer1.Minute < timer2.Minute;
+            else
+            {
+                if (timer1.Second != timer2.Second)
+                    return timer1.Second < timer2.Second;
+                else
+                {
+                    if (timer1.Millisecond != timer2.Millisecond)
+                        return timer1.Millisecond < timer2.Millisecond;
+                    else
+                        return true;
+                }
+            }
+        }
+
+        public static bool operator >(Timer timer1, Timer timer2)
+        {
+            if (timer1.Minute != timer2.Minute)
+                return timer1.Minute > timer2.Minute;
+            else
+            {
+                if (timer1.Second != timer2.Second)
+                    return timer1.Second > timer2.Second;
+                else
+                {
+                    if (timer1.Millisecond != timer2.Millisecond)
+                        return timer1.Millisecond > timer2.Millisecond;
+                    else
+                        return true;
+                }
+            }
+        }
+
+        public static bool operator <=(Timer timer1, Timer timer2)
+        {
+            if (timer1.Minute == timer2.Minute && timer1.Second == timer2.Second && timer1.Millisecond == timer2.Millisecond)
+                return true;
+
+            if (timer1.Minute != timer2.Minute)
+                return timer1.Minute < timer2.Minute;
+            else
+            {
+                if (timer1.Second != timer2.Second)
+                    return timer1.Second < timer2.Second;
+                else
+                {
+                    if (timer1.Millisecond != timer2.Millisecond)
+                        return timer1.Millisecond < timer2.Millisecond;
+                    else
+                        return true;
+                }
+            }
+        }
+
+        public static bool operator >=(Timer timer1, Timer timer2)
+        {
+            if (timer1.Minute == timer2.Minute && timer1.Second == timer2.Second && timer1.Millisecond == timer2.Millisecond)
+                return true;
+
+            if (timer1.Minute != timer2.Minute)
+                return timer1.Minute > timer2.Minute;
+            else
+            {
+                if (timer1.Second != timer2.Second)
+                    return timer1.Second > timer2.Second;
+                else
+                {
+                    if (timer1.Millisecond != timer2.Millisecond)
+                        return timer1.Millisecond > timer2.Millisecond;
+                    else
+                        return true;
+                }
+            }
+        }
+
+        public static bool operator ==(Timer timer1, Timer timer2)
+        {
+            return (timer1.Minute == timer2.Minute && timer1.Second == timer2.Second && timer1.Millisecond == timer2.Millisecond);
+        }
+
+        public static bool operator !=(Timer timer1, Timer timer2)
+        {
+            return (timer1.Minute != timer2.Minute || timer1.Second != timer2.Second || timer1.Millisecond != timer2.Millisecond);
         }
 
         public override string ToString()
