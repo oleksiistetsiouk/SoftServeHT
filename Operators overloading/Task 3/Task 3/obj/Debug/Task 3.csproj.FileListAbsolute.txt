@@ -1,0 +1,6 @@
+C:\Documents\GitHub\SoftServeHT\Operators overloading\Task 3\Task 3\bin\Debug\Task 3.exe.config
+C:\Documents\GitHub\SoftServeHT\Operators overloading\Task 3\Task 3\bin\Debug\Task 3.exe
+C:\Documents\GitHub\SoftServeHT\Operators overloading\Task 3\Task 3\bin\Debug\Task 3.pdb
+C:\Documents\GitHub\SoftServeHT\Operators overloading\Task 3\Task 3\obj\Debug\Task 3.csprojAssemblyReference.cache
+C:\Documents\GitHub\SoftServeHT\Operators overloading\Task 3\Task 3\obj\Debug\Task 3.exe
+C:\Documents\GitHub\SoftServeHT\Operators overloading\Task 3\Task 3\obj\Debug\Task 3.pdb
